@@ -27,4 +27,13 @@ When the **Species** variable is selected, the plot shifts to either a Box Plot 
 2. Select the Y Variable using the five choices on the drop-down menu
 3. Check the "Show Linear Model" box, if desired.
 
-When selecting the variables and options the plot and the Linear Model Output values will be displayed (see notes above).  View different combination of X and Y variables to explore this data set.
+## Widgets
+
+- selectInput: X and Y axis variable selections
+- checkboxInput: Options to display the linea model
+
+## Output
+When comparing the Sepal {length, width} variables and the Petal {length, width}
+variables, a linear model is generated and displayed, if the "show Linear Model" box is checked.
+
+When the **Species** variable is selected, the plot shifts to either a Box Plot or a series of data points per Species. In these cases, the linear model is not a part of the plot and is not displayed.
